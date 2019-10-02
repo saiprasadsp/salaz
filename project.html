@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title><link href="project1.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<nav><span class="a">
+<a href="login.html">Login</a><br>
+<a href="#">Create account</a><span></nav>
+<a href="project2.html" target="_self"><img id="lines" src="lines.jpg" alt="image not found"/></a>
+<div class="food"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoyrY-GX2Ah2DTi3aJ5T5QliN_63dK4ujdz70nr9py-SLa9Lyb" height="300px" width="600px"/><div class="centered">Delicious Food is on the way</div></div>
+<input type="text" id="myInput" placeholder="Search.." onkeyup="myFunction()">
+<ul id="myUL"><li><a href="#">Hyderabad</a></li>
+<li><a href="#">Bengaluru</a></li>
+<li><a href="#">Chennai</a></li>
+<li><a href="#">Nagpur</a></li>
+<li><a href="#">Mumbai</a></li></ul>
+<button type="submit" id="cities" onclick="myRestaraunt()">Search</button>
+<main><div>
+<a href=""><h2 class="order">Order online</h2></a>
+<span><a href="project3.html"><h2 class="table">Book Table</h2></a></span>
+<section><a href="#"><h2>Nearby</h2></a></section></div></main>
+<p id="demo"></p><script type="text/javascript" rel="javascript">
+function myFunction(){
+var input, filter, ul, li, a, i, txtValue
+input= document.getElementById("myInput");
+filter= input.value.toUpperCase();
+ul= document.getElementById("myUL");
+li= ul.getElementById("li");
+for(i=0; i<li.length; i++){
+a= li[i].getElementByTagName("a")[0];
+txtValue= a.textContent || a.innerText;
+if(txtValue.toUpperCase().indexOf(filter)> -1){
+li[i].style.display ="";
+}
+else{
+li[i].style.display="";
+}
+}
+}
+</script>
+</body>
+<footer>
+<a href="#"><h3>About us</h3></a><hr>
+<a href="#"><h3>Carrers</h3></a><hr>
+<a href="#"><h3>Feed back</h3></a><hr>
+<a href="#"><h3>Privacy</h3><img src="twitter.png" height="80px"><img src="insta.jpg" height="50px"></a></footer>
+</html>

@@ -1,0 +1,98 @@
+body{
+background-color:cayon;
+box-sizing: border-box;
+position: relative;
+display: block;
+}
+h4{
+font-family: Helvetica;
+font-weight: bold;
+color: black;
+position: relative;
+margin-left: auto;
+margin-right: auto;
+}
+#restaraunt{
+position: relative;
+display: inline-block;
+box-sizing: border-box;
+border-radius:25px;
+height: 30px;
+width: 30%;
+border-style: solid;
+text-align: center;
+margin-left: 500px;
+font-family: Helvatica;
+font-size: 18px;
+overflow: hidden;
+background-color: #e9e9e9;
+border: 1px solid #ccc;
+}
+h2{
+display: block;
+box-sizing: content-box;
+color: black;
+width: 100px;
+height: 60px;
+background-color: orange;
+padding-left: 45px;
+}
+.select{
+font-size: 15px;font-weight: bold;font-family: sans-serif;}
+h3{
+color: black;
+}
+#lines{
+width: 50px;height: 50px;
+position: relative;
+}
+.food{
+text-align: center;
+color: marron;
+position:relative;
+}
+.order{background-image:url("food.jpg");
+color: orange;
+}
+.table{background-image:url("frames.jpeg");
+color: solid black;
+}
+.centered{
+font-weight: bold;
+font-size: 45px;
+top: 50%;
+left: 50%;
+position: absolute;
+transform: translate(-50%, -50%);
+}
+.a{
+position: relative;
+float: right;
+font-weight: bold;
+}
+#myInput{
+background-image:url("/css/searchicon.png");
+background-position: 10px 20px;
+background-repeat: no-repeat;
+width: 50%;
+font-size: 16px;
+padding: 12px 20px 12px 40px;
+margin-bottom: 12px;
+}
+myUL{
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+#myUL li a{
+border: 1px solid #ddd;
+margin-top: -1px;
+background-color: #f6f6f6;
+padding: 12px;
+font-size: 18px;
+color: black;
+display: block;
+}
+#myUL li a:hover:not(.header){
+background-color: #eee;
+}
